@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servicios a la oficina de reparto</title>
+    <!-- Enlace a la biblioteca de Bootstrap (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Órdenes recibidas para el despacho</h1>
+    
+    <!-- Agrega una imagen al documento -->
+    <img src="https://s10.s3c.es/imag/_v0/640x450/e/4/9/nevera-inteligente.jpg" alt="nevera inteligente">
+    
+    <!-- Agrega una tabla con estilos de Bootstrap -->
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>numero</th>
+                <th>fecha</th>
+                <th>nevera</th>
+                <th>producto</th>
+                <th>cantidad</th>
+                <th>pesos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-warning">
+                <td>1</td>
+                <td>2023-09-27 6:16:38</td>
+                <td>neveraChachones</td>
+                <td>huevos</td>
+                <td>10</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2023-09-28 8:45:12</td>
+                <td>neveraCool</td>
+                <td>leche</td>
+                <td>5</td>
+                <td>15000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2023-09-29 11:22:59</td>
+                <td>neveraSmart</td>
+                <td>pan</td>
+                <td>8</td>
+                <td>12000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Frame embebido -->
+    <iframe src="URL_DE_LA_HOJA_DE_GOOGLE_SHEETS" style="width: 250%;"></iframe>
+
+    <!-- Enlace a los archivos de Bootstrap (CDN) -->
+    <script src="https://ajax.googleapis.com/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
