@@ -52,7 +52,7 @@
     </table>
 
     <!-- Frame embebido -->
-    <iframe src="URL_DE_LA_HOJA_DE_GOOGLE_SHEETS" style="width: 250%;"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/1x2l7e35d9ei8B0rW1NWjO54BXMJYjf6lorpfAB7E6lA/edit?usp=sharing" style="width: 250%;"></iframe>
 
     <!-- Enlace a los archivos de Bootstrap (CDN) -->
     <script src="https://ajax.googleapis.com/libs/jquery/3.5.1/jquery.min.js"></script>
